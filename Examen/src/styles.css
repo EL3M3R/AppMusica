@@ -1,30 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
-.colorblanco{
-color:white;
+.colorblanco {
+  color: white;
 }
 
-.colorhumo{
-    color:#BC9E9E;
+.colorhumo {
+  color: #bc9e9e;
 }
 
-.fondorojo{
+.fondorojo {
+}
+
+.colorrojo {
+  color: #e65f5f;
+}
+.page-sidebar {
+  float: left;
+  width: 20%;
+  height: 550px;
+  background-color: #662323;
+  /* position:absolute; */
+}
+.container-fluid {
+  float: right;
+  width: 80%;
+  height: 550px;
+  background-color: #ffffff;
+  /* position:absolute; */
+}
+.shearch {
+  width: 100%;
+  border-radius: 20px;
+  border: solid 3px;
+  border-color: #e0e0e0;
+}
+.izquierda {
+  float: left;
+}
+.derecha {
+  float: right;
+}
+.margin-2 {
+  margin-left: 2%;
+}
+.margin-8 {
+  margin-left: 8%;
+}
+.colorgris {
+  color: #a7a7a7;
+}
+.espacioabajo {
+  padding-bottom: 2px;
+}
+ul {
+  list-style: none;
+}
+.top-3 {
+  margin-top: 3em;
+}
+
+.top-3px {
+  margin-top: 26px;
   
 }
+.centradorow {
+  width: 98%;
+  float: center;
+  margin: auto;
+  padding-bottom: 24px;
+}
 
-.colorrojo{
-    color:#E65F5F;
+.sinright {
+  padding-right: 0px;
 }
-.page-sidebar{
-    float: left;
-    width: 20%;
-    height: 550px;
-    background-color: #662323;
-    /* position:absolute; */
+.sinleft {
+  padding-left: 0px;
 }
-.container-fluid{
-    float: right;
-     width: 80%;
-    height: 550px;
-    background-color: #FFFFFF;
-    /* position:absolute; */
+
+.bannersuperpuesto{
+    position: absolute;
+    width: 49%;
+    z-index: 3;
+    background-color: #d69995cc;
+    height: 17em;
+}
+
+.padding3{
+    padding-left: calc(var(--bs-gutter-x)/ 1);
+    padding-right: calc(var(--bs-gutter-x)/ 1);
 }
