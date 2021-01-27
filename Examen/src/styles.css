@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.colorblanco{
+color:white;
+}
+
+.colorhumo{
+    color:#BC9E9E;
+}
+
+.fondorojo{
+  
+}
+
+.colorrojo{
+    color:#E65F5F;
+}
+.page-sidebar{
+    width: 20%;
+    height: 550px;
+    background-color: #662323;
+    /* position:absolute; */
+}
