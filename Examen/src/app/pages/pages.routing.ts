@@ -4,7 +4,7 @@ import { HomeComponent } from "./home/home.component";
  import { PagesComponent } from "./pages.component";
 
 const routes: Routes = [
-    {path: 'home' , component: PagesComponent ,
+    {path: 'dashboard' , component: PagesComponent ,
      children: [
       { path: 'page', component: PagesComponent},
     ]},

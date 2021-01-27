@@ -15,8 +15,16 @@ color:white;
     color:#E65F5F;
 }
 .page-sidebar{
+    float: left;
     width: 20%;
     height: 550px;
     background-color: #662323;
+    /* position:absolute; */
+}
+.container-fluid{
+    float: right;
+     width: 80%;
+    height: 550px;
+    background-color: #FFFFFF;
     /* position:absolute; */
 }
